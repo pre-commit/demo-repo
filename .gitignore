@@ -1,0 +1,12 @@
+*.pyc
+.pydevproject
+.pre-commit-files
+.project
+.coverage
+/py_env
+*.db
+.idea
+build
+dist
+*.egg-info
+*.iml
