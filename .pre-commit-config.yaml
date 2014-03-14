@@ -1,0 +1,24 @@
+
+-
+    repo: git@github.com:pre-commit/pre-commit-hooks
+    sha: 5e713f8878b7d100c0e059f8cc34be4fc2e8f897
+    hooks:
+        -
+            id: pyflakes
+            files: '*.py'
+
+-
+    repo: git@github.com:pre-commit/jshint
+    sha: 191734354d1191e3771c004c3e905a94728d0349
+    hooks:
+        -
+            id: jshint
+            files: '*.js'
+
+-
+    repo: git@github.com:pre-commit/scss-lint
+    sha: 425536b1b77d9e836068edde4fb3101bea6e7dd8
+    hooks:
+        -
+            id: scss-lint
+            files: '*.scss'
