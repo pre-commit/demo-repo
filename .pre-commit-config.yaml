@@ -1,24 +1,18 @@
-
--
-    repo: git@github.com:pre-commit/pre-commit-hooks
-    sha: 5e713f8878b7d100c0e059f8cc34be4fc2e8f897
+-   repo: git@github.com:pre-commit/pre-commit-hooks
+    sha: 7c003425b35fff516c0ee88f4040c8c208d474bd
     hooks:
-        -
-            id: pyflakes
-            files: '\.py$'
-
--
-    repo: git@github.com:pre-commit/jshint
-    sha: 191734354d1191e3771c004c3e905a94728d0349
+    -   id: flake8
+    -   id: trailing-whitespace
+    -   id: name-tests-test
+-   repo: git@github.com:pre-commit/scss-lint
+    sha: 75111a8769605839c3aee3eabbbbfa529bdb0358
     hooks:
-        -
-            id: jshint
-            files: '\.js$'
-
--
-    repo: git@github.com:pre-commit/scss-lint
-    sha: 425536b1b77d9e836068edde4fb3101bea6e7dd8
+    -   id: scss-lint
+-   repo: git@github.com:pre-commit/pre-commit
+    sha: 7edb438d76b7b977b7b8a6b16422af7b8d8c13cd
     hooks:
-        -
-            id: scss-lint
-            files: '\.scss$'
+    -   id: validate_config
+-   repo: git@github.com:pre-commit/ruby-lint
+    sha: 11522d47a7ee3a382d819e009ebcd976f6541c76
+    hooks:
+    -   id: ruby-lint
