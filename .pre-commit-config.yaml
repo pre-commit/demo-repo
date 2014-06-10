@@ -16,3 +16,7 @@
     sha: 11522d47a7ee3a382d819e009ebcd976f6541c76
     hooks:
     -   id: ruby-lint
+-   repo: git://github.com/pre-commit/mirrors-jshint
+    sha: 8e7fa9caad6f7b2aae8d2c7b64f457611416192b
+    hooks:
+    -   id: jshint
