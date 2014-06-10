@@ -4,8 +4,8 @@
     -   id: flake8
     -   id: trailing-whitespace
     -   id: name-tests-test
--   repo: git@github.com:pre-commit/scss-lint
-    sha: 75111a8769605839c3aee3eabbbbfa529bdb0358
+-   repo: git://github.com/pre-commit/mirrors-scss-lint
+    sha: d7266131da322d6d76a18d6a3659f21025d9ea11
     hooks:
     -   id: scss-lint
 -   repo: git@github.com:pre-commit/pre-commit
