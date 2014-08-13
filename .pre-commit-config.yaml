@@ -1,5 +1,5 @@
 -   repo: git@github.com:pre-commit/pre-commit-hooks
-    sha: f69737ee198a488f4c0478e7ab95333883f6a2d9
+    sha: 7ec485352199e02d608198b0206b0675fa84af73
     hooks:
     -   id: flake8
     -   id: trailing-whitespace
@@ -9,7 +9,7 @@
     hooks:
     -   id: scss-lint
 -   repo: git@github.com:pre-commit/pre-commit
-    sha: 16b3a370475e8f91e1ea57d4680842cdd9bdfaf6
+    sha: 74e878d96a96c137e258d23904f0e99986bf7e2c
     hooks:
     -   id: validate_config
 -   repo: git://github.com/pre-commit/mirrors-ruby-lint
