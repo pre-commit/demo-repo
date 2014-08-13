@@ -2,6 +2,7 @@
     sha: 7ec485352199e02d608198b0206b0675fa84af73
     hooks:
     -   id: flake8
+    -   id: end-of-file-fixer
     -   id: trailing-whitespace
     -   id: name-tests-test
 -   repo: git://github.com/pre-commit/mirrors-scss-lint
