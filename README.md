@@ -13,3 +13,8 @@ Simple instructions to see this repo in action.
     $ pre-commit run --all-files
 
     # Should show some output with some passing and some failing hooks
+
+
+## Some Screenshots
+
+![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/master/img/demo_all_files.png)
