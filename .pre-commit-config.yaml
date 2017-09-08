@@ -1,23 +1,20 @@
+repos:
 -   repo: git@github.com:pre-commit/pre-commit-hooks
-    sha: 2d83e302cc2757a28cedc03e6bb075de913c1804
+    sha: v0.9.2
     hooks:
     -   id: flake8
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
     -   id: name-tests-test
 -   repo: git://github.com/pre-commit/mirrors-scss-lint
-    sha: ce46c548f01433ab1e4587bf993304b52d1b93bc
+    sha: v0.54.0
     hooks:
     -   id: scss-lint
--   repo: git@github.com:pre-commit/pre-commit
-    sha: cdf726bbedb15f33ca60fdc397fec379946755fc
-    hooks:
-    -   id: validate_config
 -   repo: git://github.com/pre-commit/mirrors-ruby-lint
-    sha: f4b537e0bf868fc6baefcb61288a12b35aac2157
+    sha: v2.3.1
     hooks:
     -   id: ruby-lint
 -   repo: git://github.com/pre-commit/mirrors-jshint
-    sha: e86225836aadd058036f47a6de9b0ee0440476eb
+    sha: v2.9.5
     hooks:
     -   id: jshint
