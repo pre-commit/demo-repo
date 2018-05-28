@@ -10,6 +10,7 @@ Simple instructions to see this repo in action.
     $ virtualenv venv
     $ . venv/bin/activate
     $ pip install pre-commit
+    $ pre-commit install
     $ pre-commit run --all-files
 
     # Should show some output with some passing and some failing hooks
