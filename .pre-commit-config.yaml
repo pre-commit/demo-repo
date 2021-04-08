@@ -5,8 +5,8 @@ repos:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
     -   id: name-tests-test
--   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.7.4
+-   repo: https://github.com/pycqa/flake8
+    rev: 3.9.0
     hooks:
     -   id: flake8
 -   repo: https://github.com/pre-commit/mirrors-scss-lint
