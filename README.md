@@ -20,8 +20,8 @@ Simple instructions to see this repo in action.
 
 ### Example hook failures
 
-![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/master/img/demo_all_files.png)
+![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/main/img/demo_all_files.png)
 
 ### Successful commit
 
-![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/master/img/demo_commit.png)
+![Example failures](https://raw.githubusercontent.com/pre-commit/demo-repo/main/img/demo_commit.png)
