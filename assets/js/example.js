@@ -7,4 +7,3 @@ var x = function() {
 var y = function(a, b) {
 	return a == null;
 };
-
