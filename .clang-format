@@ -1,0 +1,22 @@
+---
+Language: CSharp
+BasedOnStyle: Microsoft
+AccessModifierOffset: -1
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+AlignConsecutiveAssignments: true
+AlignTrailingComments: true
+AllowShortIfStatementsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+BraceWrapping:
+  AfterFunction: true
+  AfterClass: true
+  AfterEnum: true
+  AfterStruct: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+SortIncludes: false
+SortUsingDeclarations: true
+MaxEmptyLinesToKeep: 1
+ColumnLimit: 120

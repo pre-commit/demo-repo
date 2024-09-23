@@ -21,3 +21,18 @@ repos:
     rev: v2.9.7
     hooks:
     -   id: jshint
+
+  # Disable dotnet-format until https://github.com/dotnet/sdk/issues/39723 is resolved.
+
+  # Check C# code formatting with dotnet-format
+  # - repo: https://github.com/dotnet/format
+  #   rev: v8.0.453106
+  #   hooks:
+  #     - id: dotnet-format
+
+  # Check C# code formatting with clang-format
+-   repo: https://github.com/pre-commit/mirrors-clang-format
+    rev: v17.0.5
+    hooks:
+      - id: clang-format
+        types: [c#]
