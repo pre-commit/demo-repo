@@ -36,3 +36,10 @@ repos:
     hooks:
       - id: clang-format
         types: [c#]
+
+
+# Check Shell Scripts
+-   repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.10.0.1
+    hooks:
+      - id: shellcheck
