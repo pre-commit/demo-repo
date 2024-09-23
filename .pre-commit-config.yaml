@@ -45,6 +45,13 @@ repos:
     rev: v0.10.0.1
     hooks:
       - id: shellcheck
+
+  # Check GitHub Actions workflows
+-   repo: https://github.com/rhysd/actionlint
+    rev: v1.7.1
+    hooks:
+      - id: actionlint
+
   # Check C, C++ code with cpplint
 -   repo: https://github.com/cpplint/cpplint
     rev: 1.6.1
