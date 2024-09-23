@@ -30,6 +30,8 @@ repos:
   #   hooks:
   #     - id: dotnet-format
 
+  # TODO Find a C# linter hook that uses .editorconfig
+
   # Check C, C++, C# code formatting with clang-format
 -   repo: https://github.com/pre-commit/mirrors-clang-format
     rev: v17.0.5
