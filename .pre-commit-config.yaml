@@ -43,3 +43,9 @@ repos:
     rev: v0.10.0.1
     hooks:
       - id: shellcheck
+  # Check C, C++ code with cpplint
+-   repo: https://github.com/cpplint/cpplint
+    rev: 1.6.1
+    hooks:
+      - id: cpplint
+        args: ['--quiet']
