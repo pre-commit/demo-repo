@@ -1,16 +1,16 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.1.0
+    rev: v5.0.0
     hooks:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
     -   id: name-tests-test
 -   repo: https://github.com/pycqa/flake8
-    rev: 3.9.0
+    rev: 7.1.1
     hooks:
     -   id: flake8
 -   repo: https://github.com/pre-commit/mirrors-scss-lint
-    rev: v0.57.1-1
+    rev: v0.60.0
     hooks:
     -   id: scss-lint
 -   repo: https://github.com/pre-commit/mirrors-ruby-lint
@@ -18,6 +18,6 @@ repos:
     hooks:
     -   id: ruby-lint
 -   repo: https://github.com/pre-commit/mirrors-jshint
-    rev: v2.9.7
+    rev: v2.13.6
     hooks:
     -   id: jshint
